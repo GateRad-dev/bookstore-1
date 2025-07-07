@@ -1,81 +1,21 @@
 body {
-  font-family: sans-serif;
+  background: #f0f4f8;
   margin: 0;
-  padding: 2rem;
-  background-color: #f0f4f8;
-  text-align: center;
+  padding: 0;
 }
 
-.app {
-  max-width: 800px;
-  margin: auto;
+input, button {
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
-h1 {
-  margin-bottom: 1.5rem;
-}
-
-.form {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-  justify-content: center;
-  margin-bottom: 1rem;
-}
-
-.form input {
-  padding: 0.3rem 0.5rem;
-  font-size: 0.9rem;
-  width: 130px;
-}
-
-.form button {
-  padding: 0.3rem 0.8rem;
-  font-size: 0.9rem;
+button {
   background-color: #007bff;
   color: white;
   border: none;
-  cursor: pointer;
 }
 
-.form button:hover {
+button:hover {
   background-color: #0056b3;
-}
-
-.book-list {
-  list-style: none;
-  padding: 0;
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: left;
-}
-
-.book-item {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 1rem;
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  padding: 0.6rem;
-  border-radius: 5px;
-  margin-bottom: 1rem;
-}
-
-.book-item span {
-  white-space: nowrap;
-  font-size: 0.9rem;
-}
-
-.book-item button {
-  background-color: #dc3545;
-  color: white;
-  border: none;
-  padding: 0.3rem 0.7rem;
-  cursor: pointer;
-  font-size: 0.9rem;
-}
-
-.book-item button:hover {
-  background-color: #c82333;
 }
